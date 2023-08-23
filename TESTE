@@ -1,0 +1,66 @@
+// Exercício 1
+alert("Hello World!");
+
+// Exercício 2
+var a = 5;
+var b = 10;
+var sum = a + b;
+console.log("Resultado da soma:", sum);
+
+// Exercício 3
+var numCheck = 42;
+if (typeof numCheck === "number") {
+    console.log("É um número");
+} else {
+    console.log("Não é um número");
+}
+
+// Exercício 4
+var stringCheck = "Hello";
+if (typeof stringCheck === "string") {
+    console.log("É uma string");
+} else {
+    console.log("Não é uma string");
+}
+
+// Exercício 5
+var boolCheck = true;
+if (typeof boolCheck === "boolean") {
+    console.log("É um booleano");
+} else {
+    console.log("Não é um booleano");
+}
+
+// Exercício 6
+var x = 15;
+var y = 7;
+var subtract = x - y;
+console.log("Resultado da subtração:", subtract);
+
+// Exercício 7
+var c = 4;
+var d = 9;
+var multiply = c * d;
+console.log("Resultado da multiplicação:", multiply);
+
+// Exercício 8
+var e = 20;
+var f = 5;
+var divide = e / f;
+console.log("Resultado da divisão:", divide);
+
+// Exercício 9
+var numPar = 16;
+if (numPar % 2 === 0) {
+    console.log("É um número par");
+} else {
+    console.log("Não é um número par");
+}
+
+// Exercício 10
+var numImpar = 23;
+if (numImpar % 2 !== 0) {
+    console.log("É um número ímpar");
+} else {
+    console.log("Não é um número ímpar");
+}
